@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: frezeleme-hesaplama
+    env: python
+    buildCommand: ""
+    startCommand: "python3 main.py"
